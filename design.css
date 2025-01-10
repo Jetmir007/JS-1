@@ -6,4 +6,6 @@
     align-items: center;
 }
 
-
+*{
+    background-color: hsl(193, 75%, 11%);
+}

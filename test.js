@@ -1,20 +1,10 @@
-let storlek = 40;
-let exp = false;
-
-function växa()
-{
-    storlek += 10;
-    if( storlek >= 90 && storlek <= 90){
-        document.getElementById("ballong").innerHTML = "💥";
+function rool(){
+    dice = document.getElementsByClassName("dice")
+    let total = 0;
+    for(let i = 0; i < 69; i++){
+        number = Math.floor(Math.random()*6)+1;
+        dice[i].src = "dice" + number + ".png"
+        total += number;
     }
-    else if ( storlek >= 100){
-        exp = true;
-    }
-    if (exp){
-        storlek = 40;
-        document.getElementById("ballong").innerHTML = "🎈";
-        exp = false;
-    }
-    document.getElementById("ballong").style.fontSize = storlek +"px";
+    alert(total)
 }
-

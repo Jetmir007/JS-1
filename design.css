@@ -15,3 +15,28 @@ button{
     height: 20%;
     background-color: mediumaquamarine;
 }
+
+.check{
+    position: absolute;
+    top: 160px;
+}
+
+#c1{
+    left: 11.5%;
+}
+
+#c2{
+    left: 30.5%;
+}
+
+#c3{
+    left: 49.5%;
+}
+
+#c4{
+    left: 68.5%;
+}
+
+#c5{
+    left: 87.5%;;
+}
